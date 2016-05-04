@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  margin: auto;
+  /*padding-top: 14em;
+  */ }
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+
+/* This code right here should create a gap between navbar and scrollable content */
+/* element+element	div + p	Selects all <p> elements that are placed immediately after <div> elements */
+.affix + .container-fluid {
+  padding-top: 10em; }
+
+.header {
+  margin-bottom: 1em;
+  background-color: white;
+  width: 100%; }
+  .header img {
+    float: left; }
+
+.company-name {
+  padding-top: 1em;
+  padding-left: 4em;
+  color: #761525;
+  font-size: 3em;
+  font-family: "Times New Roman";
+  font-weight: bold; }
+
+.cart-button {
+  background-color: black;
+  color: white; }
+
+.cart-button:hover {
+  background-color: black;
+  color: yellow; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: solid 2px yellow;
+  overflow: hidden;
+  background-color: #333; }
+  ul li {
+    float: left;
+    padding-left: 1.5em; }
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 1em;
+    text-decoration: none; }
+  ul li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: yellow; }
+  ul li a.active {
+    background-color: #761525;
+    color: yellow; }
+  ul li a.focus {
+    text-decoration: none; }
+  ul li a.selected {
+    text-decoration: none; }
+
+.content {
+  height: 2000px; }
+
+.page-title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #761525; }
+
+#contact-form {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.footer {
+  width: 100%;
+  height: 5em;
+  background-color: #171717;
+  border: 2px solid yellow;
+  color: cornflowerblue; }
+  .footer h1 {
+    text-align: center; }
+
+.blue {
+  background-color: cornflowerblue; }
+
+/* -------------------------------------------------------------------
+Google map
+------------------------------------------------------------------- */
+#map-section {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+#map {
+  height: 100%;
+  width: 100%;
+  border: 2px solid black; }
+
+#map img {
+  max-width: none; }

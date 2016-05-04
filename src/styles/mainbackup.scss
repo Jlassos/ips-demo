@@ -1,0 +1,82 @@
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: auto;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+
+.header {
+  margin-bottom: 1em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.company-name {
+  padding-top: 0.5em;
+  color: #761525;
+  font-size: 4em;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.cart-button {
+  background-color: black;
+  color: white;
+}
+.cart-button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #333;
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: yellow;
+  }
+  li a.active {
+    background-color: #761525;
+    color: yellow;
+  }
+  li a.selected {
+    text-decoration: none;
+  }
+}
+
+.content {
+  height: 2000px;
+}
+.container-fluid {
+  overflow: hidden;
+}
+
+.footer {
+  width: 100%;
+  height: 5em;
+  background-color: #171717;
+  color: cornflowerblue;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
