@@ -1,14 +1,11 @@
 // ---------------------------------------------------------
 // Navbar Fix
 // ---------------------------------------------------------
+/* affix the navbar after scroll below header */
 
-// $(window).on('resize', () => {
-//   var containerWidth = $('nav > .container').width()
-//   $('.nav.navbar').width( containerWidth )
-// })
 
 function resizeNavbar() {
-  var containerWidth = $('nav > .container').width()
+  var containerWidth = $('.container > nav').width()
   $('.nav.navbar').width( containerWidth )
 }
 

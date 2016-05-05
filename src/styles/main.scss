@@ -14,7 +14,7 @@ body {
 /* This code right here should create a gap between navbar and scrollable content */
 /* element+element	div + p	Selects all <p> elements that are placed immediately after <div> elements */
 .affix + .container-fluid {
-  padding-top: 10em;
+  padding-top: 30em;
 }
 
 .header {
@@ -25,11 +25,16 @@ body {
   img {
     float: left;
   }
+  .dropdown {
+    float: left;
+    padding-top: 5em;
+    padding-left: 2em;
+  }
 }
 
 .company-name {
   padding-top: 1em;
-  padding-left: 4em;
+  float: left;
   color: #761525;
   font-size: 3em;
   font-family: "Times New Roman";
@@ -45,46 +50,46 @@ body {
   background-color: black;
   color: yellow;
 }
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #333;
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: #333;
+    li {
+      float: left;
+      padding-left: 1.5em;
+    }
 
-  li {
-    float: left;
-    padding-left: 1.5em;
-  }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 1em;
+      padding: 1em 1em;
+      text-decoration: none;
+    }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 1em 1em;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #111;
-    text-decoration: none;
-    color: yellow;
-  }
-  li a.active {
-    background-color: #761525;
-    color: yellow;
-  }
-  li a.focus {
-    text-decoration: none;
-  }
-  li a.selected {
-    text-decoration: none;
+    li a:hover {
+      background-color: #111;
+      text-decoration: none;
+      color: yellow;
+    }
+    li a.active {
+      background-color: #761525;
+      color: yellow;
+    }
+    li a.focus {
+      text-decoration: none;
+    }
+    li a.selected {
+      text-decoration: none;
+    }
   }
 }
-
 .content {
   height: 2000px;
 }
